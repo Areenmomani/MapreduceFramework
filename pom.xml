@@ -29,7 +29,7 @@
                             <transformers>
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>java.Main</mainClass>
+                                    <mainClass>src.main.java.Main</mainClass>
                                 </transformer>
                             </transformers>
                             <manifest>
